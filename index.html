@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>QR-Code-Generator</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-$END$
+    <div class="container">
+        <p>Enter your URL</p>
+        <input type="text" placeholder="URL" id="input">
+        <div id="box">
+           <img src="" id="img">
+        </div>
+        <button onclick="generate()">Generate QR Code</button>
+    </div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
